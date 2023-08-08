@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" id="search-form">
+        <input type="Search" placeholder="Enter City Name" id="search-input" required autocomplete="off" />
+        <br>
+        <br>
+        <button id="search-button">Search</button>
+    </form>
+    <main id="app-container">
+        <div>
+            <h1>Weather</h1>
+        </div>
+
+        <!-- for celcius    &#176C -->
+        <div id="temp">
+            <img id="temp-icon" src="image/01n.png" alt="">
+            <p><span id="temp-value">--------------</span><span id="temp-unit"></span></p>
+        </div>
+        <div id="climate">
+            <p>---------</p>
+        </div>
+        <div id="location">
+            <p>-------</p>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
